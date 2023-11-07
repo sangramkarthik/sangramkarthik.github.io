@@ -1,7 +1,7 @@
-*{
+/* *{
     border: 1px red dashed;
     
-}
+} */
 
 body{
     box-sizing: border-box;
@@ -104,12 +104,24 @@ li>a{
 #contact{
     height: 50vh;
 }
-footer ul{
+footer {
     display: flex;
-    background-color: rgb(114, 214, 214);
+    flex-wrap: wrap;
+    /* background-color: rgb(114, 214, 214); */
+    align-items: center;
+    justify-content: space-between;
 
 }
-footer img{
+footer h3{
+    text-align: center;
+}
+footer img,h3{
+    flex: 1;
 
-    width: 20px;
+    /* width: 20px; */
+}
+
+
+footer img{
+    width: 30px;
 }
