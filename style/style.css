@@ -81,7 +81,7 @@ span:hover{
 
 img{
     /* border-radius: 100% 100%; */
-    border-radius: 100px 100px;
+    border-radius: 50% 50%;
     width: 50%;
     height: 90%;
 }
