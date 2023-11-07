@@ -17,7 +17,9 @@ body{
     flex-wrap: wrap;
     align-items: center;
     gap: 1em;
-    border-bottom: 5px teal solid;
+    /* border-bottom: 5px teal solid; */
+    background: linear-gradient(14deg, rgb(0, 179, 255),rgb(226, 33, 33));
+    
     
 }
 .box{
@@ -37,9 +39,10 @@ body{
     padding: 10px;
 }
 #main-header a:hover{
-    text-decoration: underline rgb(37, 231, 37) 3px;
+    /* text-decoration: underline rgb(37, 231, 37) 3px; */
     color: grey;
     font-weight: bolder;
+    font-size: 1.3em;
 
     
 }
@@ -56,10 +59,11 @@ span:hover{
 }
 .box a{
     font-size: 1.2em;
+    color: #f4f4f4;
 }
 
 .branding{
-    color:red;
+    color:rgb(241, 113, 67);
     padding: 10px;
     margin-left: 1.5em;
     
@@ -87,7 +91,8 @@ span:hover{
     flex-wrap: wrap;
     padding: 1em;
     gap: 1em;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
+   
     
 }
 em{
@@ -120,8 +125,8 @@ footer{
     padding: 0.3em;
     gap: 1em;
     align-items: center;
-    /* border-bottom: 3px teal dashed; */
-    background-color: teal;
+    background: linear-gradient(34deg, teal,green);
+  
     
 }
 
